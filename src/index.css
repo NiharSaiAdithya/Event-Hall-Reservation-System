@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  /* Champagne Gold */
+  --color-champagne-50: #fdf9ef;
+  --color-champagne-100: #f9f0d8;
+  --color-champagne-200: #f2deb0;
+  --color-champagne-300: #e9c77e;
+  --color-champagne-400: #e0ad55;
+  --color-champagne-500: #d4af37;
+  --color-champagne-600: #b8912a;
+  --color-champagne-700: #9a7224;
+  --color-champagne-800: #7e5c22;
+  --color-champagne-900: #6a4d1f;
+
+  /* Ivory */
+  --color-ivory-50: #fefdfb;
+  --color-ivory-100: #fdf9f0;
+  --color-ivory-200: #faf3e4;
+  --color-ivory-300: #f5ead2;
+  --color-ivory-400: #efe0c0;
+  --color-ivory-500: #e8d5ad;
+
+  /* Charcoal */
+  --color-charcoal-400: #7a7a85;
+  --color-charcoal-500: #5a5a65;
+  --color-charcoal-600: #454550;
+  --color-charcoal-700: #36363f;
+  --color-charcoal-800: #28282f;
+  --color-charcoal-900: #1a1a22;
+
+  /* Navy */
+  --color-navy-800: #1e2a4a;
+  --color-navy-900: #0f1729;
+
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-ivory-50);
+    color: var(--color-charcoal-800);
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
