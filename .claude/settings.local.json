@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npm list *)",
+      "Bash(node -e \"const s = require\\('@supabase/supabase-js'\\); console.log\\(typeof s\\)\")",
+      "Bash(npx playwright *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "Bash(node verify.mjs)",
+      "Bash(node probe.mjs)",
+      "Bash(node probe2.mjs)",
+      "Bash(node probe3.mjs)",
+      "Bash(curl -s \"https://oxaaekfbajzzxvfbrogz.supabase.co/rest/v1/business_hours?select=*\" -H \"apikey: sb_publishable_eY7qBi6U9NjhgWIh0lh7RQ_v8W0Nvna\" -H \"Authorization: Bearer sb_publishable_eY7qBi6U9NjhgWIh0lh7RQ_v8W0Nvna\")",
+      "Bash(curl -s \"https://oxaaekfbajzzxvfbrogz.supabase.co/rest/v1/blocked_dates?select=*\" -H \"apikey: sb_publishable_eY7qBi6U9NjhgWIh0lh7RQ_v8W0Nvna\" -H \"Authorization: Bearer sb_publishable_eY7qBi6U9NjhgWIh0lh7RQ_v8W0Nvna\")",
+      "Bash(curl -s \"https://oxaaekfbajzzxvfbrogz.supabase.co/rest/v1/business_settings?select=*\" -H \"apikey: sb_publishable_eY7qBi6U9NjhgWIh0lh7RQ_v8W0Nvna\" -H \"Authorization: Bearer sb_publishable_eY7qBi6U9NjhgWIh0lh7RQ_v8W0Nvna\")",
+      "Bash(node check-admin.mjs)",
+      "Bash(curl -s 'https://oxaaekfbajzzxvfbrogz.supabase.co/rest/v1/business_hours?select=*&order=day_of_week' -H 'apikey: sb_publishable_eY7qBi6U9NjhgWIh0lh7RQ_v8W0Nvna' -H 'Authorization: Bearer sb_publishable_eY7qBi6U9NjhgWIh0lh7RQ_v8W0Nvna')",
+      "Bash(python -m json.tool)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)",
+      "Bash(git branch *)",
+      "Bash(git push *)"
+    ]
+  }
+}
